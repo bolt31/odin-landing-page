@@ -43,6 +43,7 @@ a {
 .header_content {
     display: flex;
     justify-content: space-between;
+    align-content: center;
     margin-bottom: 120px;
     padding: 8px 60px;
 }
@@ -69,4 +70,41 @@ a {
 .header_image {
     width: 500px;
     height: auto;
+}
+
+.impressions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.impressions_head {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 48px auto;
+}
+
+.impressions_content {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 120px;
+}
+
+.team_info_image,
+.team_info_text {
+    width: 240px;
+}
+
+.team_info_image {
+    height: auto;
+    border: 8px solid #3882F6;
+    border-radius: 8px;
+}
+
+.team_info_text {
+    text-align: center;
+    font-size: 18px;
+    color: gray
 }
