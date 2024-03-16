@@ -44,7 +44,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     padding: 8px 60px;
 }
 
@@ -57,14 +57,16 @@ a {
 .header_content_left p {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: -20px;
 }
 
 .header_content_left button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 18px;
-    padding: 4px 24px;
+    padding: 8px 32px;
     border-radius: 8px;
+    border: none;
 }
 
 .header_image {
@@ -89,7 +91,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 32px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .team_info_image,
@@ -107,4 +109,74 @@ a {
     text-align: center;
     font-size: 18px;
     color: gray
+}
+
+.quote_content {
+    background-color: #E5E7EB;
+}
+
+.quote_container {
+    display: flex;
+    flex-flow: column;
+    padding: 60px 180px;
+    margin: 60px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: rgb(84, 84, 84);
+    flex-shrink: 0;
+}
+
+.source {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 16px;
+}
+
+.call_to_action_content {
+    background-color: #3882F6;
+    margin: 80px 120px;
+    padding: 20px 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call_to_action_content_left {
+    color: #F9FAF8;
+}
+
+.call_to_action_content_left p {
+    margin-top: -20px;
+    font-size: 18px;
+}
+
+.call_to_action_content button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+}
+.call_to_action_content_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    font-size: 16px;
+    color: #E5E7EB;
+    padding: 32px 0;
 }
